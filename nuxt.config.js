@@ -1,7 +1,7 @@
 export default {
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
-    title: 'first-project',
+    title: 'ascend-helpdesk',
     htmlAttrs: {
       lang: 'en'
     },
@@ -12,7 +12,11 @@ export default {
       { name: 'format-detection', content: 'telephone=no' }
     ],
     link: [
-      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
+      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
+      { rel: 'preconnect', type: '', href: 'https://fonts.googleapis.com' },
+      { rel: 'preconnect', type: '', href: 'https://fonts.gstatic.com' },
+      { rel: 'stylesheet', type: '', href: 'https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap' },
+      { rel: 'stylesheet', type: '', href: 'https://fonts.googleapis.com/icon?family=Material+Icons' },
     ]
   },
   // Global CSS: https://go.nuxtjs.dev/config-css
